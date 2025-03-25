@@ -442,6 +442,20 @@ footer {
 }
 
 @media (max-width: 768px) {
+    header {
+        position: relative;
+        padding: 0;
+    }
+    
+    nav {
+        flex-direction: column;
+        padding: 1rem 5%;
+    }
+    
+    main {
+        margin-top: 2rem;
+    }
+    
     section {
         padding: 3rem 5%;
     }
@@ -456,15 +470,6 @@ footer {
     
     .nav-links a {
         margin-left: 0;
-    }
-    
-    nav {
-        flex-direction: column;
-        padding: 1rem 5%;
-    }
-    
-    main {
-        margin-top: 160px;
     }
     
     .about-us h1 {
